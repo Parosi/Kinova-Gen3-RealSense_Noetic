@@ -43,6 +43,7 @@
         <!-- Load the realsense -->
         <xacro:if value="${realsense}">
             <xacro:sensor_d435 parent="${prefix}realsense_link">
+                <origin xyz="0 0 0" rpy="0 0 0"/> 
             </xacro:sensor_d435>
         </xacro:if>
 

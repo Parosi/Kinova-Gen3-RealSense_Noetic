@@ -335,7 +335,7 @@
     <xacro:if value="${realsense}">
       <link name="${prefix}realsense_link" />
       <joint name="${prefix}realsense_module" type="fixed">
-        <origin xyz="0 0.05639 -0.00305" rpy="3.14159265358979 3.14159265358979 0" />
+        <origin xyz="0 0.035 -0.012" rpy="4.71238898038 4.71238898038 0" />
         <parent link="${prefix}end_effector_link" />
         <child  link="${prefix}realsense_link" />
       </joint>
